@@ -45,7 +45,7 @@ class NQBacktracking:
         return True
 
 if __name__ == "__main__":
-    N = 4
+    N = 8
     x, y = 3, 2
     NQBt = NQBacktracking(x, y)
     NQBt.solveNQ()
